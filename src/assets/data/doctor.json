@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "name": "TS. BS. Đào Duy Minh",
+        "faculty": "Cardiology",
+        "description": "With 12 years experience, Dr. Nguyen Van Si specializes in the treatment of Cardiovascular Diseases. He has completed a PhD program at Yamanashi University, Japan and is currently a lecturer at University of Medicine and Pharmacy HCMC.",
+        "traning": "Đại học Y dược thành phố Hồ Chí Minh",
+        "degrees": "Tiến sĩ Y Khoa",
+        "languages": " English /  Vietnamese ",
+        "license": "0018033/HCM-CCHN",
+        "image": "https://cdn.jiohealth.com/doctor/10337/79588b1f-f84f-4059-9e5c-99165be6ad44"
+    },
+    {
+        "id": 2,
+        "name": "ThS. BS. Mr.Đào Duy Minh Hải",
+        "faculty": "Cardiology",
+        "description": "With 12 years experience, Dr. Nguyen Van Si specializes in the treatment of Cardiovascular Diseases. He has completed a PhD program at Yamanashi University, Japan and is currently a lecturer at University of Medicine and Pharmacy HCMC.",
+        "traning": "Đại học Y dược thành phố Hà Nội",
+        "degrees": "Thạc sĩ Y Khoa",
+        "languages": " English /  Vietnamese ",
+        "license": "0018033/HCM-CCHN",
+        "image": "https://cdn.jiohealth.com/doctor/174063/4d58c14b-fbe6-4ac1-af91-c5fee6003268"
+    },
+    {
+        "id": 3,
+        "name": "ThS. BS. CKI. Đào Duy Minh Quân",
+        "faculty": "Otolaryngology",
+        "description": "With 8 years experience, Dr. Nguyen Van Si specializes in the treatment of Cardiovascular Diseases. He has completed a PhD program at Yamanashi University, Japan and is currently a lecturer at University of Medicine and Pharmacy HCMC.",
+        "traning": "Đại học Y dược thành phố Hà Nội",
+        "degrees": "Thạc sĩ Y Khoa",
+        "languages": " English /  Vietnamese ",
+        "license": "0018033/HCM-CCHN",
+        "image": "https://cdn.jiohealth.com/doctor/131532/cfc964f4-75f4-4947-b44c-79f756cffd27"
+    },
+    {
+        "id": 4,
+        "name": "TS. BS. Đào Duy Minh Nghĩa",
+        "faculty": "Dermatology",
+        "description": "With 10 years experience, Dr. Nguyen Van Si specializes in the treatment of Cardiovascular Diseases. He has completed a PhD program at Yamanashi University, Japan and is currently a lecturer at University of Medicine and Pharmacy HCMC.",
+        "traning": "Đại học Y dược thành phố Hà Nội",
+        "degrees": "Thạc sĩ Y Khoa",
+        "languages": " English /  Vietnamese ",
+        "license": "0018033/HCM-CCHN",
+        "image": "https://cdn.jiohealth.com/doctor/36318/562c8fb3-624e-4450-b155-97f9c51113d1"
+    },
+    {
+        "id": 5,
+        "name": "ThS. BS. CKI. Nguyễn Thị Kim Dung",
+        "faculty": "Ophthalmology",
+        "description": "Dr. Nguyen Thi Kim Dung specializes in treating Eye conditions. She graduated with a Master degree in Ophthalmology and currently works at HCMC Eye Hospital.",
+        "traning": "Đại học Y dược thành phố Hà Nội",
+        "degrees": "Thạc sĩ Y Khoa",
+        "languages": "Vietnamese ",
+        "license": "045544/HCM-CCHN",
+        "image": "https://cdn.jiohealth.com/doctor/123172/a6016c83-4713-4901-a48b-91e090702f38"
+    },
+    {
+        "id": 6,
+        "name": "ThS. BS. Lê Hoàng Hạnh Nghi",
+        "faculty": "Dietetics",
+        "description": "Dr. Le Hoang Hanh Nghi is experienced in consulting children nutrition such as malnutrition, obesity, allergy pediatric, ill-micronutrient….",
+        "traning": "Đại học Y khoa Phạm Ngọc Thạch",
+        "degrees": "Thạc sĩ Y Khoa",
+        "languages": "Vietnamese",
+        "license": "043037/HCM-CCHN",
+        "image": "https://cdn.jiohealth.com/doctor/114979/e338e98b-33e7-4731-8b99-a97445322d89"
+    },
+    {
+        "id": 7,
+        "name": "ThS. BS. CKI. Trần Anh Ngọc",
+        "faculty": "Psychiatry",
+        "description": "Dr. Tran Anh Ngoc owns a Master's degree in Psychiatry, specializing in screening, treating and managing common Mental Disorders. He is currently collaborating with British Medical Journal - The leading Medical Journal in the UK.",
+        "traning": "Đại học Y Hà Nội",
+        "degrees": "Thạc sĩ Y Khoa",
+        "languages": "Vietnamese",
+        "license": "043037/HCM-CCHN",
+        "image": "https://cdn.jiohealth.com/doctor/7416/477ef57b-f7fc-4df0-8e48-5b9fefea4fc7"
+    },
+    {
+        "id": 8,
+        "name": "ThS. BS. CKI. Võ Văn Trung",
+        "faculty": "Gastroenterology",
+        "description": "Dr. Vo Van Trung specializes in the treatment of Endocrine and Gastrointestinal and Liver Diseases and currently works at Cho Ray Hospital in HCMC.",
+        "traning": "Đại học Y Hà Nội",
+        "degrees": "Thạc sĩ Y Khoa",
+        "languages": "English / Vietnamese",
+        "license": "040938/BYT-CCHN",
+        "image": "https://cdn.jiohealth.com/doctor/130881/f55080dc-8feb-4251-83b5-e06c1d0f25c2"
+    }
+]

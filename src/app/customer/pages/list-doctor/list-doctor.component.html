@@ -1,0 +1,203 @@
+<div class="banner_list">
+    <img src="https://cdn.jiohealth.com/jio-website/home-page/jio-website-v2.1.6/assets/images/doctor-profile/doctor-list-banner-3-dt.svg"
+        class="card-img layer-1" alt="">
+    <img src="https://cdn.jiohealth.com/jio-website/home-page/jio-website-v2.1.6/assets/images/doctor-profile/doctor-list-banner-2-dt.png"
+        class="card-img layer-2" alt="">
+    <img src="https://cdn.jiohealth.com/jio-website/home-page/jio-website-v2.1.6/assets/images/doctor-profile/doctor-list-banner-dt.svg"
+        class="card-img layer-3" alt="">
+    <img src="https://cdn.jiohealth.com/jio-website/home-page/jio-website-v2.1.6/assets/images/doctor-profile/doctor-list-banner-mb.png"
+        class="card-img layer-4" alt="">
+    <div class="top-doctors">
+        <div class="doctor-list-title">
+            <h1 class="title">Top Doctors<br> From Top Hospitals</h1>
+        </div>
+        <div class="covid-vaccinated media">
+            <div class="media-left">
+                <img alt="vaccine" class="covid-vac"
+                    src="https://cdn.jiohealth.com/jio-website/home-page/jio-website-v2.1.6/assets/icons/covid-vaccine.svg">
+                <img alt="vaccine" class="tick"
+                    src="https://cdn.jiohealth.com/jio-website/home-page/jio-website-v2.1.6/assets/icons/vaccine-green-tick.svg">
+            </div>
+            <div class="media-body">
+                <p>Our doctors have been vaccinated <br class="d-lg-none d-block">against COVID-19</p>
+            </div>
+        </div>
+        <div class="doctor-info mt-4">
+            <p class="doctor-list-info">Jio’s leading Doctors are affiliated with the best hospitals with
+                over 10 years of clinical experience on average, cover a broad range of specialities and are dedicated
+                to
+                serving you.</p>
+        </div>
+    </div>
+</div>
+<div class="container mt-5">
+    <h3 class="header-title">Find Your Doctor</h3>
+    <div class="filter row d-flex justify-content-between">
+        <div class="search_name col-lg-5">
+            <input type="text" placeholder="Search by name">
+            <button class="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <select name="" id="" class="col-lg-3">
+            <option value="">Sort by Specially</option>
+            <option value="">Interal medicine</option>
+        </select>
+        <select name="" id="" class="col-lg-3">
+            <option value="">Sort by Degree</option>
+            <option value="">GP-general practitioner</option>
+        </select>
+    </div>
+</div>
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-md-4 item-doc mt-3" *ngFor="let item of list">
+            <a>
+                <div class="doc-info">
+                    <div class="doc-img">
+                        <img src="{{item.image}}" alt="">
+                    </div>
+                    <div class="dr-main-info">
+                        <p class="dr-name mt-3">{{item.name}}</p>
+                        <p class="dr-specialty mt-1">{{item.faculty}}</p>
+                    </div>
+                </div>
+                <div class="more-doc-info mt-4">
+                    <p class="intro">With 12 years experience, Dr. Nguyen Van Si specializes in the treatment of
+                        Cardiovascular...</p>
+                    <button class="btn btn-shadow"  routerLink="/detail-doctor/{{item.id}}">View More</button>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="view_more mt-5 mb-5">
+        <button class="btn btn-shadow">View More Doctors</button>
+    </div>
+</div>
+<div class="care_team">
+    <div class="wave-bg">
+        <img src="https://cdn.jiohealth.com/jio-website/home-page/jio-website-v2.1.6/assets/images/doctor-profile/elite-care-bg.svg"
+            alt="" class="card-img">
+    </div>
+    <div class="container">
+        <h2 class="heading-primary-2">An Elite Care Team</h2>
+        <div class="info">
+            <!---->
+            <div class="row info-team">
+                <div class="col-6 ng-star-inserted">
+                    <div class="item">
+                        <div class="media">
+                            <div class="media-left"><img alt="icon"
+                                    src="https://cdn.jiohealth.com/jio-website/home-page/jio-website-v2.1.6/assets/icons/smart-clinic/experience.png">
+                            </div>
+                            <div class="media-body">
+                                <h3 class="title">Experience</h3>
+                                <p>Our Doctors have, on average, 12 years of clinical experience, have
+                                    completed residency, and are CKI &amp; CKII specialists. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 ng-star-inserted">
+                    <div class="item">
+                        <div class="media">
+                            <div class="media-left"><img alt="icon"
+                                    src="https://cdn.jiohealth.com/jio-website/home-page/jio-website-v2.1.6/assets/icons/smart-clinic/distinguished.png">
+                            </div>
+                            <div class="media-body">
+                                <h3 class="title">Distinguished</h3>
+                                <p>Many of our Doctors graduate from and teach at top-tier medical
+                                    institutions such as the University of Medicine &amp; Pharmacy, HCM city</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 ng-star-inserted">
+                    <div class="item">
+                        <div class="media">
+                            <div class="media-left"><img alt="icon"
+                                    src="https://cdn.jiohealth.com/jio-website/home-page/jio-website-v2.1.6/assets/icons/smart-clinic/international.png">
+                            </div>
+                            <div class="media-body">
+                                <h3 class="title">International</h3>
+                                <p>Many of our Doctors have foreign rotation experience from the USA,
+                                    France, Germany, Singapore, &amp; Thailand</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 ng-star-inserted">
+                    <div class="item">
+                        <div class="media">
+                            <div class="media-left"><img alt="icon"
+                                    src="https://cdn.jiohealth.com/jio-website/home-page/jio-website-v2.1.6/assets/icons/smart-clinic/multilingual.png">
+                            </div>
+                            <div class="media-body">
+                                <h3 class="title">Multilingual</h3>
+                                <p>Our Care Providers can effectively communicate with patients in
+                                    Vietnamese, English, &amp; French.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- small -->
+            <div class="row info-team-sm">
+                <div class="col-sm-12 ng-star-inserted">
+                    <div class="item">
+                        <div class="media">
+                            <div class="media-left"><img alt="icon"
+                                    src="https://cdn.jiohealth.com/jio-website/home-page/jio-website-v2.1.6/assets/icons/smart-clinic/experience.png">
+                            </div>
+                            <div class="media-body">
+                                <h3 class="title">Experience</h3>
+                                <p>Our Doctors have, on average, 12 years of clinical experience, have
+                                    completed residency, and are CKI &amp; CKII specialists. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 ng-star-inserted">
+                    <div class="item">
+                        <div class="media">
+                            <div class="media-left"><img alt="icon"
+                                    src="https://cdn.jiohealth.com/jio-website/home-page/jio-website-v2.1.6/assets/icons/smart-clinic/distinguished.png">
+                            </div>
+                            <div class="media-body">
+                                <h3 class="title">Distinguished</h3>
+                                <p>Many of our Doctors graduate from and teach at top-tier medical
+                                    institutions such as the University of Medicine &amp; Pharmacy, HCM city</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 ng-star-inserted">
+                    <div class="item">
+                        <div class="media">
+                            <div class="media-left"><img alt="icon"
+                                    src="https://cdn.jiohealth.com/jio-website/home-page/jio-website-v2.1.6/assets/icons/smart-clinic/international.png">
+                            </div>
+                            <div class="media-body">
+                                <h3 class="title">International</h3>
+                                <p>Many of our Doctors have foreign rotation experience from the USA,
+                                    France, Germany, Singapore, &amp; Thailand</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 ng-star-inserted">
+                    <div class="item">
+                        <div class="media">
+                            <div class="media-left"><img alt="icon"
+                                    src="https://cdn.jiohealth.com/jio-website/home-page/jio-website-v2.1.6/assets/icons/smart-clinic/multilingual.png">
+                            </div>
+                            <div class="media-body">
+                                <h3 class="title">Multilingual</h3>
+                                <p>Our Care Providers can effectively communicate with patients in
+                                    Vietnamese, English, &amp; French.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

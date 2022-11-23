@@ -1,0 +1,415 @@
+.banner_list {
+    position: relative;
+}
+
+.layer-1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-height: none;
+}
+
+.layer-2 {
+    position: absolute;
+    right: 0;
+    height: auto;
+    min-width: 0;
+    max-height: none;
+    width: 1440px;
+    left: 50%;
+    margin-left: -50%;
+    z-index: 1000;
+}
+
+.layer-3 {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-height: none;
+}
+
+.layer-4 {
+    display: none;
+}
+
+.top-doctors {
+    position: absolute;
+    top: 19%;
+    left: 14%;
+}
+
+.doctor-list-title .title {
+    font-size: 30px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #111c63;
+    font-family: AvenirNext-Bold, sans-serif;
+    margin-top: 0;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.covid-vaccinated {
+    background: #E8F1FF;
+    border-radius: 100px;
+    width: 330px;
+    padding: 1px;
+}
+
+.media {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: start;
+    align-items: flex-start;
+}
+
+.covid-vac {
+    width: 44px;
+    border-radius: 100px;
+    box-shadow: 5px 10px 30px #ccd6ef;
+}
+
+.tick {
+    margin-left: -6px;
+    width: 30px;
+}
+
+.media-body {
+    -webkit-box-flex: 1;
+    flex: 1;
+}
+
+.media-body p {
+    font-size: 14px;
+    font-family: AvenirNext-DemiBold, Verdana, sans-serif;
+    margin-bottom: 0;
+    color: #111C63;
+    margin-left: 12px;
+    line-height: 16px;
+    margin-top: 7px;
+    font-weight: 450;
+}
+
+.doctor-info {
+    width: 430px;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.35;
+    color: #4a4a4a;
+    margin-bottom: 0;
+}
+
+.header-title {
+    font-family: AvenirNext-Bold, sans-serif;
+    font-weight: 800;
+    color: #111C63;
+    font-size: 40px;
+    line-height: 1.1;
+    position: relative;
+    padding-bottom: 26px;
+    margin-bottom: 30px;
+}
+
+.header-title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    width: 50px;
+    background: #2320D4;
+    border-radius: 10px;
+}
+
+.search_name {
+    position: relative;
+}
+
+.search_name input {
+    width: 100%;
+    line-height: 1.2;
+    padding: 5px 20px;
+    height: 50px;
+    color: #4A4A4A;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.search_name input::placeholder {
+    color: #ced4da;
+}
+
+.search_name button {
+    position: absolute;
+    right: 15px;
+    top: 0;
+    padding: 14px 18px 12px;
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.search_name button:hover {
+    box-shadow: 0 0 4px #2320d4;
+}
+
+.search_name button i {
+    font-size: 17px;
+    color: #2FC1A6;
+}
+
+select {
+    width: 100%;
+    line-height: 1.2;
+    padding: 5px 7px;
+    height: 50px;
+    color: #4A4A4A;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.info-team-sm {
+    display: none;
+}
+
+@media screen and (max-width:1024px) {
+
+    .layer-1,
+    .layer-2,
+    .layer-3 {
+        display: none;
+    }
+
+    .layer-4 {
+        display: block;
+    }
+
+    .search_name {
+        padding: 0;
+    }
+
+    select {
+        margin-top: 15px;
+    }
+
+    .search_name button {
+        position: absolute;
+        right: 2px;
+        top: 0;
+        padding: 14px 18px 12px;
+        border: none;
+        background: none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+}
+
+.item-doc {
+    background: #fff;
+    /* margin: 0 10px 20px; */
+    /* box-shadow: 10px 25px 60px #ccd6ef; */
+    border-radius: 20px;
+    display: -webkit-box;
+    /* position: relative; */
+    overflow: hidden;
+    /* width: calc(25% - 20px); */
+    color: #4A4A4A;
+    padding: 0;
+    border: 1px solid #ccd6ef;
+}
+
+.item-doc a {
+    text-decoration: none;
+}
+
+.doc-info {
+    width: 100%;
+}
+
+.doc-img {
+    width: 100%;
+    text-align: center;
+}
+
+.doc-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.dr-name {
+    font-family: AvenirNext-Bold, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 0;
+    color: #111C63;
+    text-align: center;
+}
+
+.dr-specialty {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #111C63;
+    font-style: italic;
+    font-weight: 450;
+}
+
+.more-doc-info {
+    padding: 17px 20px 0 20px;
+    border-top: 1px solid #D7DBE5;
+    width: 100%;
+}
+
+.intro {
+    margin-bottom: 14px;
+    font-size: 16px;
+    font-weight: 450;
+    color: #4A4A4A;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.more-doc-info button {
+    width: 70%;
+    margin: 15px 35px 20px 35px;
+}
+
+.btn-shadow {
+    color: #2320D4;
+    box-shadow: 10px 10px 30px #ccd6ef;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-weight: 500;
+    z-index: 10000;
+}
+
+.view_more {
+    text-align: center;
+    
+}
+.view_more button{
+    display: inline-block;
+    transition: 1s;
+    margin: 0 auto;
+}
+.view_more:hover button{
+    transform:translateY(-10px);
+}
+
+.heading-primary-2 {
+    font-family: AvenirNext-Bold, sans-serif;
+    font-weight: 400;
+    color: #111C63;
+    font-size: 42px;
+    line-height: 1.1;
+    position: relative;
+    padding-bottom: 26px;
+    margin-bottom: 30px;
+}
+
+.heading-primary-2:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    width: 50px;
+    background: #2320D4;
+    border-radius: 10px;
+}
+
+.info {
+    background: #fff;
+    box-shadow: 10px 25px 60px #ccd6ef;
+    border-radius: 20px;
+    padding: 40px 40px 0;
+    margin-top: 30px;
+}
+
+.item {
+    margin-bottom: 50px;
+}
+
+.item img {
+    width: 100px;
+    box-shadow: 5px 10px 30px #ccd6ef;
+    border-radius: 100px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.care-team .info .item .media-body {
+    width: 300px;
+}
+
+@media screen and (max-width:769px) {
+    .info-team-sm {
+        display: block;
+    }
+
+    .info-team {
+        display: none;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .top-doctors {
+        display: none;
+    }
+
+    .info-team-sm {
+        display: block;
+    }
+
+    .doctor-list-title .title {
+        font-size: 20px;
+        line-height: 1.1;
+        margin-bottom: 10px;
+        padding-bottom: 0;
+        color: #111c63;
+        font-family: AvenirNext-Bold, sans-serif;
+        margin-top: 0;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+
+    .search_name {
+        padding: 0 10px;
+    }
+
+    .search_name button {
+        right: 10px;
+    }
+
+    select {
+        width: 100%;
+        line-height: 1.2;
+        padding: 5px 7px;
+        height: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        color: #4A4A4A;
+        border-radius: 5px;
+        border: 1px solid #ced4da;
+    }
+
+    .item-doc {
+        margin-left: 10px;
+        margin-right: 10px
+    }
+}

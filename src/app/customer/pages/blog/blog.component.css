@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&family=Josefin+Sans&family=Rubik&display=swap');
+
+p {
+    margin: 0;
+}
+
+.posts {
+    cursor: pointer;
+    padding: 30px;
+    margin-bottom: 60px;
+    box-shadow: 0 0 10px 0.1px #bec1c6;
+}
+
+.image-posts {
+    width: 120px;
+    height: 120px;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
+}
+
+.title-posts {
+    padding-left: 30px;
+}
+
+.title-posts .content-title {
+    font-size: 38px;
+    line-height: 1.2;
+
+}
+
+.interaction-item {
+    padding: 0 10px;
+}
+
+.content-posts {
+
+    font-size: 17px;
+    margin-top: 35px;
+    margin-bottom: 80px;
+    letter-spacing: 0.5px;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.8;
+    color: #6d7483;
+}
+
+.tags a {
+    display: inline-block;
+    box-shadow: 0px 2px 6px rgb(7 10 25 / 10%);
+    transition: 0.3s;
+    padding: 6px 8px 4px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.tags a span {
+    color: #ff4c60 !important;
+}
+
+.tags a:hover {
+    color: #ff4c60;
+    transform: translateY(-2px);
+    -webkit-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+}
+
+.author {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.next-page {
+    justify-content: center;
+}
+
+.next-page span {
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    border: 2px solid #6d7483;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.next-page span:first-child {
+    background-color: #ff4c60;
+}
+
+/* left-blog */
+.left-blog {
+    padding-left: 70px;
+}
+
+.border-line {
+    width: 100%;
+    content: '';
+    background-color: #ff4c60;
+    height: 2px;
+    min-width: 30px;
+    max-width: 50%;
+}
+
+.title-recent {
+    font-size: 15px;
+    padding-left: 10px;
+    line-height: 1.2;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.title-recent small {
+    color: #6d7483;
+}
+
+.image-recent {
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
+}
+
+.left-blog .tags a {
+    margin-bottom: 10px;
+}
+
+.logo {
+    font-size: 40px;
+    font-family: 'Days One', sans-serif;
+    color: #ff4c60;
+
+}
+
+.logo span {
+    color: darkblue;
+}
+
+@media screen and (max-width:990px) {
+    .title-posts {
+        margin-top: 20px;
+        padding: 0;
+    }
+
+    .left-blog {
+        padding-left: 15px;
+    }
+}

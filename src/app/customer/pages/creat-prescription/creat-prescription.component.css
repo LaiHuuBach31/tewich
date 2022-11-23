@@ -1,0 +1,86 @@
+.banner_order img {
+    width: 100%;
+    height: auto;
+    
+}
+.banner_order {
+    height: auto;
+}
+.box_iccon img {
+    width: 50px;
+    margin-right: 30px;
+    margin-bottom: 13px;
+}
+.step_prescription {
+    display: flex;
+    align-items: center;
+}
+.create_order {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 1px 20px 3px #aabbe5;
+    
+    
+}
+.order_text h3 {
+    color: #111c63;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+.step_text p {
+    color: #212529;
+}
+.create_order {
+    padding-left: 50px;
+}
+.text h5 {
+    color: #2fc1a6;
+    font-size: 25px;
+    
+}
+.text p {
+    color:#111c63;
+    font-size: 20px;
+    font-weight: 500;
+}
+.order_{
+    padding: 10px;
+}
+.banner_order {
+    position: relative;
+    min-height: 100vh;
+    /* height: 1001px; */
+    background-image: url('https://pharmacy.jiohealth.com/prescription-bg.818943c30b1d0dc12f37.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.create_order{
+    margin-top: 3%;
+    /* left: 50%;
+    transform: translateX(-50%); */
+    min-width: 60vw;
+    min-height: 50vh;
+    /* position: absolute;
+    top:10%; */
+    padding: 40px;
+}
+@media screen and (max-width: 992px) {
+    .create_order{
+        padding: 0;
+        text-align: center;
+    }
+    .step_prescription{
+        padding-right: 50px;
+        justify-content: center;
+    }
+}
+.start button {
+    border-radius: 40px;
+    background-color: #2fc1a6;
+    border: none;
+    padding: 15px 20px;
+    color: #fff;
+    font-weight: 700;
+    
+}

@@ -1,0 +1,25 @@
+.book {
+    padding: 30px;
+    box-shadow: 0 0 10px 1px #f5f5f5;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.list-book>div {
+    margin-bottom: 30px;
+}
+
+.header-book {
+    border-bottom: 2px solid #1d5d85;
+}
+
+.book span {
+    padding-left: 30px;
+    text-transform: capitalize;
+}
+
+.note span {
+    text-transform: capitalize;
+    font-weight: normal;
+    text-transform: initial;
+}
